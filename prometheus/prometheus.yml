@@ -24,7 +24,6 @@ scrape_configs:
           - https://www.merchant.co.th
           - https://cpt.merchant.co.th/login
           - https://core-system.merchant.co.th/
-          - https://cvo12.net/
 
     relabel_configs:
       - source_labels: [__address__]
